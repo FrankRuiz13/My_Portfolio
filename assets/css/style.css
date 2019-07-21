@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Cuprum', sans-serif;
 }
 .portfolio-hero-header {
     display: -webkit-flex;
