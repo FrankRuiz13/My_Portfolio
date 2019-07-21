@@ -2,12 +2,7 @@
     box-sizing: border-box;
 }
 
-#title {
-  font-size: 60px;
-  font-family: 'Cuprum', sans-serif;
-  text-align: center;
-  border-bottom: solid;
-}
+
 .portfolio-resume-spacing {
     margin-bottom: 2rem;
   }
