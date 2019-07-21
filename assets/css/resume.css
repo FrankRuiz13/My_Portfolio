@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    background: black;
+    color: antiquewhite;
 }
 
 
@@ -29,14 +31,14 @@
   }
   
   .portfolio-resume-contact-info a {
-    color: #0a0a0a;
+    color: antiquewhite;
   }
   
   .portfolio-resume-contact-info .fa {
     font-size: 1.4rem;
     padding-right: 0.8rem;
     vertical-align: middle;
-    color: #0a0a0a;
+    color: antiquewhite;
   }
   
   
