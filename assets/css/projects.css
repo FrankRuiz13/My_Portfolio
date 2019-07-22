@@ -19,5 +19,11 @@
   padding: 10px;
   text-align: center;
   border: double black;
+  display: flex;
+  overflow: auto;
+}
+
+.card-horizontal {
+ padding: 10px;
 }
 
