@@ -1,10 +1,12 @@
 * {
+    margin: 0 auto;
     box-sizing: border-box;
-    background: black;
-    color: antiquewhite;
+   
 }
 
-
+.container {
+  margin: 100px;
+}
 .portfolio-resume-spacing {
     margin-bottom: 2rem;
   }
@@ -31,14 +33,14 @@
   }
   
   .portfolio-resume-contact-info a {
-    color: antiquewhite;
+    color: black;
   }
   
   .portfolio-resume-contact-info .fa {
     font-size: 1.4rem;
     padding-right: 0.8rem;
     vertical-align: middle;
-    color: antiquewhite;
+    color: black;
   }
   
   
