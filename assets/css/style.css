@@ -14,7 +14,11 @@
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center;
-    background-image: url(../images/background.png);
+    background-image: url(../images/jack.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
     color: white;
     text-shadow: 4px 4px 9px black;
     padding: 2rem 0;
