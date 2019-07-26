@@ -4,6 +4,10 @@
     
 }
 
+body {
+  background: black;
+}
+
 .portfolio-hero-header {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -19,12 +23,20 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
-    text-shadow: 4px 4px 9px black;
     padding: 2rem 0;
+}
 
+    .portfolio-hero-header-h1 {
+    color: white;
+    text-shadow: 2px 2px 7px black;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 60px;
   }
-  
+
+  li, h6 {
+    color: white;
+  }
+
   .portfolio-hero-header-description {
     list-style-type: none;
     display: -webkit-flex;
@@ -79,10 +91,12 @@
 
   .button {
     background-image: linear-gradient(120deg, orangered 0%, black 100%);
+    
   }
 
   .container {
     margin: 10px;
+    color: white;
     text-align: center;
     overflow: auto;
   }
