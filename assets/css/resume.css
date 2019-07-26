@@ -4,8 +4,15 @@
    
 }
 
+body {
+ background: white;
+}
 .container {
-  margin: 100px;
+  margin: 50px;
+  color: antiquewhite;
+  border: double white;
+  background: black;
+  box-shadow: 7px 7px 7px gray;
 }
 .portfolio-resume-spacing {
     margin-bottom: 2rem;
