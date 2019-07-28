@@ -28,7 +28,7 @@ body {
 img {
   width: 300px;
   height: 300px;
-  border-radius: 1rem;
+  border-radius: 50%;
 }
 
     .portfolio-hero-header-h1 {
