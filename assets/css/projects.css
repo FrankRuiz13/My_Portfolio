@@ -10,26 +10,14 @@
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
-  border: double  black;
-  background-image: linear-gradient(120deg, firebrick 0%, tan 100%);
 }
 
-.four-up-feature {
-  text-align: center;
+.card {
+  margin: 10px;
+  padding: 10px;
 }
 
-.four-up-feature .four-up-feature-header {
-  margin-bottom: 3rem;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+img {
+  width: 200px;
+  height: 200px;
 }
-
-.four-up-feature .four-up-feature-image {
-  margin-bottom: 2rem;
-}
-
-.four-up-feature .four-up-feature-text {
-  margin-bottom: 2rem;
-}
-
