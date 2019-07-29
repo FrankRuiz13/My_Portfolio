@@ -4,7 +4,21 @@
     font-family: 'Cuprum', sans-serif;
 }
 
+header {
+  font-size: 50px;
+  color: whitesmoke;
+  padding: 10px;
+  background-image: url(../images/background6.jpg);
+  background-position: center;
+  background-size: 100%;
+  text-shadow: 2px 2px 7px black;
+}
 
+.header--nav {
+  text-align: right;
+  padding: 5px;
+  font-size: 20px;
+}
 .container {
   margin: 100px;
   padding: 20px;
@@ -13,11 +27,10 @@
 }
 
 .card {
-  margin: 10px;
+  align-items: center;
+  margin: 20px;
   padding: 10px;
+  border-radius: 0 1rem 0 1rem;
+  box-shadow: inset 2px 2px 7px black;
 }
 
-img {
-  width: 200px;
-  height: 200px;
-}
