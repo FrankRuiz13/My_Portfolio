@@ -1,5 +1,5 @@
 * {
-    margin: 0 auto;
+    margin: 0;
     box-sizing: border-box;
     font-family: 'Cuprum', sans-serif;
 }
@@ -18,15 +18,18 @@ header {
   text-align: right;
   padding: 5px;
   font-size: 20px;
+  display: inline-block;
 }
 .container {
+  background: white;
   margin: 100px;
-  padding: 20px;
+  padding: 10px;
   display: flex;
   flex-wrap: wrap;
 }
 
 .card {
+  background-image: linear-gradient(120deg, white 0%, whitesmoke 100%);
   align-items: center;
   margin: 20px;
   padding: 10px;
