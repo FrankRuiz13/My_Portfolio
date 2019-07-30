@@ -50,3 +50,13 @@ header > div {
   box-shadow: inset 2px 2px 7px black;
 }
 
+.footer--image {
+  height: 40px;
+  width: 40px;
+  border-radius: 75%;
+}
+footer {
+  background: black;
+  border: black; 
+  text-align: center;
+}

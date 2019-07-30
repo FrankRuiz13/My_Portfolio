@@ -125,6 +125,15 @@ img {
    height: 300px;
  }
  
+ .footer--image {
+   height: 40px;
+   width: 40px;
+   margin: 10px;
+ }
+
+ footer {
+   text-align: center;
+ }
 
 
 
