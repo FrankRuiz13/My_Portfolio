@@ -21,7 +21,7 @@ header > div {
 }
 
 .nav {
-  width: calc(100% - 500px);
+  width: calc(100% - 475px);
   text-align: right;
   display: inline-block;
 }
