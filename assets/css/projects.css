@@ -4,36 +4,17 @@
     font-family: 'Cuprum', sans-serif;
 }
 
-header {
-  font-size: 50px;
-  color: whitesmoke;
-  padding: 10px;
-  background-image: url(../images/background6.jpg);
-  background-position: center;
-  background-size: 100%;
-  text-shadow: 2px 2px 7px black;
-}
-
-header > div {
-  display: inline-block;
+nav {
   margin: 0;
-  padding: 0;
-}
-
-.nav {
-  width: calc(100% - 475px);
-  text-align: right;
+  background-image: url(../images/background6.jpg);
   display: inline-block;
 }
-.nav--item  {
-  font-size: 20px;
-  display: inline-block;
-  text-align: right;
+
+.brand-logo {
+  font-size: 50px;
 }
 
-.nav--item a {
-  color: white;
-}
+
 .container {
   background: white;
   margin: 100px 200px 100px 200px;
@@ -55,8 +36,10 @@ header > div {
   width: 40px;
   border-radius: 75%;
 }
+
 footer {
   background: black;
   border: black; 
   text-align: center;
+  padding: 5px;
 }
