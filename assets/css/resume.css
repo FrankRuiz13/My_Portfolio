@@ -51,5 +51,18 @@ body {
     vertical-align: middle;
     color: black;
   }
+
+  .footer--image {
+    height: 40px;
+    width: 40px;
+    border-radius: 75%;
+  }
+  
+  footer {
+    background: black;
+    border: black; 
+    text-align: center;
+    padding: 5px;
+  }
   
   
