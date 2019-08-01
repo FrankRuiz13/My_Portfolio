@@ -4,6 +4,7 @@
     font-family: 'Cuprum', sans-serif;
 }
 
+
 nav {
   position: fixed;
   top: 0;
@@ -17,8 +18,10 @@ nav {
   color: salmon;
 }
 
+
+
 .container {
-  background: white;
+  background: transparent;
   margin: 200px;
   padding: 10px;
   display: flex;

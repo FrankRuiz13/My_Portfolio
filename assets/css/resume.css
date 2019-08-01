@@ -13,6 +13,8 @@ nav {
   right: 0;
   left: 0;
   background: url(../images/background6.jpg);
+  background-position: left 50% bottom 50%;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.7);
   padding: 10px;
   text-align: right;
 }

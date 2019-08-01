@@ -107,25 +107,10 @@ img {
     margin: 100px;
     color: white;
     text-align: center;
-    overflow: auto;
+  
   }
 
-  .work-feature-block {
-    padding: 10px 0;
-    border-top: 1px solid #cacaca;
-    border-bottom: 1px solid #cacaca;
-  }
   
-  .work-feature-block-image {
-    display: block;
-    margin: auto;
-    padding: 10px 0;
-  }
-  
- .work-feature-block-image {
-   width: 400px;
-   height: 300px;
- }
 
  .footer--image {
    height: 40px;
