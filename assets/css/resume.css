@@ -1,7 +1,6 @@
 * {
     margin: 0 auto;
     box-sizing: border-box;
-   
 }
 
 body {
@@ -9,6 +8,10 @@ body {
 }
 
 nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
   background: url(../images/background6.jpg);
   padding: 10px;
   text-align: right;
@@ -23,8 +26,6 @@ nav {
 .nav--link:active {
   color: salmon;
 }
-
-
 
 .sticky-social-bar {
   padding: 0;
@@ -103,9 +104,6 @@ nav {
   background-color: inherit;
 }
 
-
-
-
 .container {
   margin: 50px;
   color: white;
@@ -158,6 +156,7 @@ nav {
   }
   
   footer {
+    position: sticky;
     background: black;
     border: black; 
     text-align: center;
