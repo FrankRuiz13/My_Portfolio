@@ -9,6 +9,7 @@ nav {
   position: fixed;
   top: 0;
   background-image: url(../images/background6.jpg);
+  background-position: left 50% bottom 50%;
   display: inline-block;
   z-index: 1;
 }
