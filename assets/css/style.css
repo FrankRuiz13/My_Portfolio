@@ -1,10 +1,20 @@
-* {
-    box-sizing: border-box;
+* { box-sizing: border-box;
     font-family: 'Cuprum', sans-serif;
 }
 
 body {
   background: black;
+}
+
+.backdrop {
+  position: fixed;
+ display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .portfolio-hero-header {
@@ -19,9 +29,11 @@ body {
             align-items: center;
     background-image: url(../images/background6.jpg);
     background-attachment: fixed;
-    background-position: center;
+    background-position: cover;
     background-repeat: no-repeat;
     background-size: cover;
+    filter: sepia(30%);
+    box-shadow: 1px 1px 1px white;
     padding: 2rem 0;
 }
 
@@ -104,11 +116,66 @@ img {
     cursor: pointer;
   }
   .container {
-    margin: 100px;
+    margin: 150px;
     color: white;
     text-align: center;
-  
   }
+
+ 
+.button-rounded-hover {
+  border: 0;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  transition: all 0.35s ease;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+}
+
+.button-rounded-hover:before {
+  opacity: 0;
+  content: "";
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border-radius: inherit;
+  background-color:  white;
+  transition: all 0.3s;
+  -webkit-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
+.button-rounded-hover:after {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border: 1px solid whitesmoke;
+  content: '';
+  border-radius: inherit;
+}
+
+.button-rounded-hover:hover,
+.button-rounded-hover:focus {
+  background: transparent;
+}
+
+.button-rounded-hover:hover:before,
+.button-rounded-hover:focus:before {
+  -webkit-transform: translateX(0%);
+      -ms-transform: translateX(0%);
+          transform: translateX(0%);
+  opacity: 0.25;
+}
+
+
 
  .footer--image {
    height: 40px;
