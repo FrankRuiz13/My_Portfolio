@@ -42,6 +42,10 @@ nav {
   z-index: 0;
 }
 
+.activator {
+  width: 200px;
+  height: 150px;
+}
 
 .footer--image {
   height: 40px;
