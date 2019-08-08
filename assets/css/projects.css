@@ -37,6 +37,8 @@ nav {
   padding: 10px;
   border-radius: 0 1rem 0 1rem;
   box-shadow: inset 2px 2px 7px black;
+  align-content: center;
+  justify-content: center;
   z-index: 0;
 }
 
