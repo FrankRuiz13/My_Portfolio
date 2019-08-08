@@ -4,7 +4,9 @@
     font-family: 'Cuprum', sans-serif;
 }
 
-
+body {
+  background: black;
+}
 nav {
   position: fixed;
   top: 0;
@@ -26,9 +28,7 @@ nav {
   margin: 200px;
   padding: 10px;
   display: flex;
-  
-  align-content: center;
-  justify-content: center;
+  flex: wrap;
 }
 
 .card {
@@ -37,15 +37,15 @@ nav {
   padding: 10px;
   border-radius: 0 1rem 0 1rem;
   box-shadow: inset 2px 2px 7px black;
-  align-content: center;
-  justify-content: center;
   z-index: 0;
+  text-align: center;
 }
 
-.activator {
-  width: 200px;
-  height: 150px;
+.card-image > img {
+  width: 150px;
+  height: 200px;
 }
+
 
 .footer--image {
   height: 40px;
